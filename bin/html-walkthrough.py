@@ -10,6 +10,7 @@ HEADER = '\n'.join((
     '<title>Persona 5 Royal Walkthrough - {}</title>',
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
     '<link rel="icon" type="image/x-icon" href="/favicon.ico">',
+    '<link rel="stylesheet" type="text/css" href="style.css">',
     '</head>',
     '<body>',
     '<div>',
@@ -30,7 +31,7 @@ PAGES = [
 ]
 
 NAVBAR = '\n'.join(['<li><a href="{}">{}</a></li>'.format(
-    x[0].split('/')[1],
+    x[0].split('/')[1] + '.html',
     x[1]
 ) for x in PAGES])
 

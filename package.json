@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "clear-dist": "rm -rf dist/**",
-    "pack": "npm run clear-dist && ./pack_html.sh 1.1.1d1",
-    "start": "live-server dist/ace-walkthrough.html"
+    "clean": "rm -rf dist",
+    "pack": "npm run clean && ./pack_html.sh 1.1.1d1",
+    "start": "live-server dist --open=ace-walkthrough.html",
+    "serve": "npm run pack && npm run start"
   },
   "devDependencies": {
     "live-server": "^1.2.1",

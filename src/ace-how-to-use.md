@@ -13,14 +13,8 @@
 * Minimize reloading for RNG social stats
 
 #### Sources
-* **Original Walkthrough**
-    * https://wikiwiki.jp/persona5r/allchart
-* **Walkthrough Mirror**
-    * https://aqiu384.github.io/p5r-walkthrough/ace-walkthrough
-* **Fusion Calculator**
-    * https://aqiu384.github.io/megaten-fusion-tool/p5r/personas
-* **Enemy List**
-    * https://aqiu384.github.io/megaten-fusion-tool/p5r/shadows
+* **Original Walkthroughs**
+    * This is a modified version of [aqiu384's](https://aqiu384.github.io/p5r-walkthrough/ace-walkthrough) and [TheGamer's](https://www.thegamer.com/persona-5-royal-april-walkthrough-guide) walkthroughs.
 
 #### Save Rotation
 * Rotate through all 16 save slot so you can backtrack if you make a scheduling mistake
