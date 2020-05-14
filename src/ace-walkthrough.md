@@ -1,17 +1,8 @@
-### ACE April
-#### Sat 4/9
-##### All Day
-* Auto
+### April
 
----
-#### Sun 4/10
-##### All Day
-* Auto
+"Those of you who’ve played the original P5 will know that April is the month of cutscenes. The game will ease you into the flow of things slowly, which means you won’t have as much freedom of choice/movement until the first palace infiltration starts in earnest.
 
----
-#### Mon 4/11
-##### All Day
-* Auto
+There’s not much to keep in mind for April— you’re mostly going to be focusing on starting all the available confidants and starting to rank up your social stats."
 
 ---
 #### Tue 4/12

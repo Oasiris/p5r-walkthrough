@@ -1,15 +1,18 @@
 #!/usr/bin/python3
+from collections import deque
 import json
 
 with open('dist/coop-answers.json') as jsonfile:
     coops = json.load(jsonfile)
 
 for currwalk in ['walkthrough.md', 'ace-walkthrough.md']:
+    # Load how-to-use
     with open('src/' + currwalk.replace('walkthrough', 'how-to-use')) as txtfile:
         nlines = list(txtfile)
 
     with open('src/' + currwalk) as txtfile:
         for line in txtfile:
+            # Apply 'strong' tag to statements in parentheses
             bline = line.replace('(', "**(").replace(')', ")**").replace('[', '**[').replace(']', ']**')
             nlines.append(bline)
 

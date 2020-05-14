@@ -10,13 +10,17 @@ HEADER = '\n'.join((
     '<title>Persona 5 Royal Walkthrough - {}</title>',
     '<meta name="viewport" content="width=device-width, initial-scale=1">',
     '<link rel="icon" type="image/x-icon" href="/favicon.ico">',
+    '<link rel="stylesheet" type="text/css" href="normalize.css">',
     '<link rel="stylesheet" type="text/css" href="style.css">',
+    # '<link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@600;700&display=swap" rel="stylesheet">',
+    # '<link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700;800&display=swap" rel="stylesheet">',
+    '<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap" rel="stylesheet">',
     '</head>',
     '<body>',
     '<div>',
     '<h1>Persona 5 Walkthrough - Version {}</h1>',
     '<h2>Navigation</h2>',
-    '<ul>',
+    '<ul id="navigation">',
     '<li><a href="/">Home</a></li>'
 ))
 
@@ -43,6 +47,9 @@ for src, title in PAGES:
 
     with open(fname) as htmlfile:
         lines = htmlfile.read()
+
+    if src == 'src/achievements':
+        print(lines)
 
     lines = '\n'.join([
         HEADER.format(title, VERSION),
