@@ -1,0 +1,16 @@
+{
+  "name": "p5r-walkthrough",
+  "version": "1.1.1d1",
+  "description": "Max-confidants walkthrough for Persona 5 Royal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clear-dist": "rm -rf dist/**",
+    "pack": "npm run clear-dist && ./pack_html.sh 1.1.1d1",
+    "start": "live-server dist/ace-walkthrough.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "showdown": "^1.9.1"
+  }
+}

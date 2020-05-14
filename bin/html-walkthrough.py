@@ -38,7 +38,7 @@ VERSION = sys.argv[1]
 
 for src, title in PAGES:
     fname = 'dist/' + src.split('/')[1] + '.html'
-    subprocess.call(['showdown', 'makehtml', '--tables', '-i', src + '.md', '-o', fname])
+    subprocess.call(['npx', 'showdown', 'makehtml', '--tables', '-i', src + '.md', '-o', fname])
 
     with open(fname) as htmlfile:
         lines = htmlfile.read()
